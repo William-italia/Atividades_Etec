@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinco Fontes</title>
+  <style>
+    /* imports */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Slab&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Hurricane&family=Lobster&family=Oswald&family=Roboto+Slab&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Hurricane&family=Lobster&family=Oswald&family=Red+Hat+Mono&family=Roboto+Slab&display=swap');
+
+    /* Css */
+    :root {
+      --border-color: #54c2f5;
+      --title-color: #08f4fc;
+      --sub-title-color: #6ccfc7;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #333;
+      font-size: 62.5%;
+      color: #ddd;
+    }
+
+    h1, h2 {
+      margin: 1rem;
+    }
+
+    p {
+      margin: 1.3rem 0rem;
+    }
+
+
+    .container {
+      background: #444;
+      width: 100%;
+      max-width: 30rem;
+      max-height: 100vh;
+      margin: auto;
+      margin-top: 4.5rem;
+      margin-bottom: 4.5rem;
+      padding: 3rem;
+      border: 0.15rem dotted var(--border-color);
+      border-radius: 0.5rem;
+    }
+
+    .content {
+      font-size: 0.9rem;
+    }
+    
+    .content h1{
+      font-size: 2rem;
+      text-align: center;
+      padding-bottom: 1rem;
+      text-decoration: underline;
+      color: var(--title-color);
+    }
+    
+    .content .info-content h2{
+      font-size: 1.3rem;
+      text-align: center;
+      font-style: italic;
+      color: var(--sub-title-color);
+    }
+
+    .content .info-content p{
+      line-height: 1.2rem;
+      text-align: justify;  
+    }
+
+  /* fonts */
+
+    .font-0 {
+      font-family: 'Roboto Slab', serif;
+    }
+
+    .font-1 {
+      font-family: 'Oswald', sans-serif;
+    }
+
+    .font-2 {
+      font-family: Impact, fantasy;
+      letter-spacing: 0.1rem;
+    }
+
+    .font-3 {
+      font-family: 'Hurricane', cursive;
+      font-size: 1.3rem;
+    }
+
+    .font-4 {
+      font-family: 'Red Hat Mono', monospace;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h1>Cinco Fontes</h1>
+      <div class="info-content font-0">
+        <h2>Roboto Slab</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit eligendi dicta voluptatibus suscipit accusantium aut est, ea sequi soluta!</p>
+      </div>
+      <div class="info-content font-1">
+        <h2>Oswald</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit eligendi dicta voluptatibus suscipit accusantium aut est, ea sequi soluta!</p>
+      </div>
+      <div class="info-content font-2">
+        <h2>Impact</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit eligendi dicta voluptatibus suscipit accusantium aut est, ea sequi soluta!</p>
+      </div>
+      <div class="info-content font-3">
+        <h2>Oleo Script</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit eligendi dicta voluptatibus suscipit accusantium aut est, ea sequi soluta!</p>
+      </div>
+      <div class="info-content font-4">
+        <h2>Satisfy</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit eligendi dicta voluptatibus suscipit accusantium aut est, ea sequi soluta!</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

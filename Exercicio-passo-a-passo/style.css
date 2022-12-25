@@ -1,0 +1,19 @@
+body {
+  font-size: 100%;
+  background: rgb(116, 115, 115);
+  color: white;
+}
+
+.nome {
+  text-decoration: underline;
+  color: white;
+}
+
+.voltar {
+  color: rgb(41, 176, 194);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(245, 217, 127);
+}
